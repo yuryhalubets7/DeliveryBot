@@ -1,0 +1,18 @@
+plugins {
+    id 'java-library'
+    id 'kotlin'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies {
+    implementation(project(":parser"))
+    implementation(project(":pathfinder"))
+    implementation(project(":navigator"))
+
+    implementation "junit:junit:$junit_version"
+    testImplementation "io.mockk:mockk:$mockk_version"
+}
