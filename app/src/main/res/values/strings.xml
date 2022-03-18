@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DeliveryBot</string>
+
+    <string name="delivery_info_hint">Delivery info</string>
+    <string name="find_path">Find Path</string>
+    <string name="success_result">Result:\n%1$s</string>
+    <string name="loading">Loading…</string>
+    <string name="generic_error_message">Something went wrong. Check your data and try again please.</string>
 </resources>
