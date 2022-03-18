@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
       <module name="DeliveryBot.app" target="11" />
+      <module name="DeliveryBot.navigator" target="1.8" />
       <module name="DeliveryBot.parser" target="1.8" />
       <module name="DeliveryBot.pathfinder" target="1.8" />
     </bytecodeTargetLevel>
