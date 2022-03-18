@@ -9,3 +9,4 @@ rootProject.name = "DeliveryBot"
 include ':app'
 include ':pathfinder'
 include ':models'
+include ':parser'
